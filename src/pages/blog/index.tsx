@@ -1,11 +1,9 @@
 import "./style.scss"
-import { Container } from "@containers";
+
 const index = () => {
     return (
         <div>
-          <Container>
-            <h1>SignIN</h1>
-          </Container>
+            <h1>Blog</h1>
         </div>
     );
 };

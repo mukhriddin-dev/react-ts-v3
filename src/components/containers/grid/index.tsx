@@ -1,9 +1,18 @@
-import "./style.scss"
+import "./style.scss";
+import { gridPropType } from "@interface";
 
-const index = () => {
+const index = ({cols, gap, children}:gridPropType) => {
+    console.log(cols, gap);
+
+    const style={
+        display:'grid',
+        gridTemplateColumns:`repeat(${cols}, 1fr)`,
+        gridGap:`${gap}px`
+    }
+
     return (
-        <div>
-            {/* code */}
+        <div style={style}>
+           {children}
         </div>
     );
 };

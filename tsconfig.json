@@ -7,7 +7,6 @@
         "skipLibCheck": true,
         "paths": {
             "@": ["./src/*"],
-
             "@types": ["./src/types"],
             "@interface": ["./src/types/interface"],
             "@enums": ["./src/types/enums"],
@@ -22,10 +21,11 @@
             "@form-ui": ["./src/components/ui/form"],
             "@sections": ["./src/components/sections"],
 
-            "@layut": ["./src/layout"],
+            "@layout": ["./src/layout"],
             "@pages": ["./src/pages"],
             "@router": ["./src/router"],
-            "@services": ["./src/services"],
+            "@router-files": ["./src/router/router.tsx"],
+            "@services": ["./src/service"],
             "@context": ["./src/context"],
 
             

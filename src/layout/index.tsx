@@ -1,11 +1,6 @@
+import MainLayout from './main-layout';
+import SignIn from "./signin"
+import SignUp from "./signup"
 
 
-const index = () => {
-    return (
-        <>
-            {/* content */}
-        </>
-    );
-};
-
-export default index;
+export { MainLayout, SignIn , SignUp } 

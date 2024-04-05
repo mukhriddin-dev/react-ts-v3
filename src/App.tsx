@@ -1,15 +1,13 @@
-import { Header, Footer } from "@components";
-import { Main } from "@containers";
+
 import { Outlet } from "react-router-dom";
+import { MainLayout } from "@layout";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Main>
+      <MainLayout>   
         <Outlet />
-      </Main>
-      <Footer />
+      </MainLayout>
     </>
   );
 };
